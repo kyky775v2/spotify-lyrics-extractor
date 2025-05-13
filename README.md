@@ -1,2 +1,2 @@
 # spotify-lyrics-js
-Spotify lyrics fetcher from pureJS
+Spotify lyrics fetcher using pureJS
