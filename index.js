@@ -5,8 +5,8 @@ import {
     writeFileSync
 } from 'node:fs';
 import axios from 'axios';
-import Spotify from 'spotify';
 import puppeteer from 'puppeteer';
+import Spotify from 'node-spotify-api';
 import { EventEmitter } from 'node:events';
 
 class LyricsExtractor {
