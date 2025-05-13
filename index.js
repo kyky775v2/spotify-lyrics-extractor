@@ -1,3 +1,5 @@
+// spotify-lyrics-js by kyky775 @ ver.25.05.14
+
 import {
 	readFileSync,
 	writeFileSync
