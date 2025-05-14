@@ -9,7 +9,7 @@ import puppeteer from 'puppeteer';
 import Spotify from 'node-spotify-api';
 import { EventEmitter } from 'node:events';
 
-class LyricsExtractor {
+class LyricsFetcher {
     constructor(options){
         this.token = null;
         this.expires = null;
@@ -111,4 +111,4 @@ class LyricsExtractor {
     }
 }
 
-export default LyricsExtractor;
+export default LyricsFetcher;
