@@ -7,7 +7,7 @@ and fetch the lyrics using that token
 
 ```js
 var fetcher = new LyricsFetcher(<FetcherOptions>);
-fetcher.fetch(<SpotifyTrack>);
+fetcher.fetch(<SpotifyTrack>): Promise(<LyricsResult>)
 
 <FetcherOptions: Object> = {
   <clientId: String> = Client id of Spotify api application
